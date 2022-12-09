@@ -1,0 +1,94 @@
+/*this styles content in the body tag*/
+body { /*opening scope operator*/
+    /*this sets the background image*/
+    background-image:url('173316.gif'); 
+    /*this makes the background repeat all over the page*/
+    background-repeat:repeat;
+    /*this lets the background stay in place as you scroll on the page*/
+    background-attachment: fixed;
+    /*this sets the color of the font*/
+    color: rgb(255, 160, 255);
+    /*this sets the size of the text in the body*/
+    font-size: x-large;
+    /*this aligns the text to the middle of the page*/
+    text-align: center;
+    /*this changes the font type*/
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+    
+} /*closing scope operator*/
+
+/*this styles content in the img tag*/
+img { /*opening scope operator*/
+    /*this changes the width of the image*/
+    width: 25%;
+    /*this changes the height of the image*/
+    height: 25%;
+
+} /*closing scope operator*/
+
+/*this styles content in the h1 tag*/
+h1 { /*opening scope operator*/
+    /*this aligns the text to the center of the page*/
+    text-align: center;
+    /*this sets the color of the text in the h1 tag*/
+    color: rgb(255, 160, 255);
+} /*closing scope operator*/
+
+/*this styles content in the .arcaea class*/
+.arcaea {  /*opening scope operator*/
+    /*this changes the width of the image*/
+    width: 200px;
+    /*this sets the height of the image*/
+    height: 265px;
+} /*closing scope operator*/
+
+/*this styles content in the .cytus2 class*/
+.cytus2 { /*opening scope operator*/
+    /*this sets the width of the text in the h1 tag*/
+    width: 400px;
+    /*this sets the height of the text in the h1 tag*/
+    height: 265px;
+} /*closing scope operator*/
+
+/*this styles content in the .WACCA class*/
+.WACCA { /*opening scope operator*/
+    /*this sets the height of the text in the h1 tag*/
+    height: 265px;
+    /*this sets the width of the text in the h1 tag*/
+    width: 400px;
+} /*closing scope operator*/
+
+/*this styles content in the .Nanahira class*/
+.Nanahira { /*opening scope operator*/
+    /*this sets the width of the text in the h1 tag*/
+    width: 300px;
+    /*this sets the height of the text in the h1 tag*/
+    height: 465px;
+} /*closing scope operator*/
+
+/*this styles content in the .KamelCamellia class*/
+.KamelCamellia { /*opening scope operator*/
+    /*this sets the width of the text in the h1 tag*/
+    width: 50%;
+    /*this sets the height of the text in the h1 tag*/
+    height: 10%;
+} /*closing scope operator*/
+
+button {
+    font-size: medium;
+    border: solid;
+    border-color: rgb(255, 160, 255);
+    color: rgb(255, 160, 255);
+    background-color: rgb(204, 7, 204);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    align-self: right;
+    float: right;
+}
+
+button:hover {
+    background-color: transparent;
+    cursor: pointer;
+}
+
